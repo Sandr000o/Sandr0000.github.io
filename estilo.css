@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /* Agregamos el fondo a todo la pagina*/
+    background-image: url(image/fondoExtas/fondo2.webp);
+}
+
+
+/* Inicio Como comprar/ hacer tu pedido*/
+.sub h5 {
+    font-size: 40px;/*El "font size" sirva para dar tamaño a las letras*/
+}
+
+.sub h4 {
+    font-size: 40px;
+}
+
+.parr p {
+    font-size: 20px;
+
+}
+/* Fin Como comprar/ hacer tu pedido*/
+
+/*Inicio footer*/
+footer {
+    width: 100%;
+    background: #202020;
+    color: white;
+    position: relative;
+
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1 {
+    max-width: 400px;
+}
+
+.colum1 h1 {
+    font-size: 22px;
+}
+
+.colum1 p {
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+
+.colum2 {
+    max-width: 400px;
+}
+
+.colum2 h1 {
+    font-size: 22px;
+}
+
+.colum2 .row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #c7c7c7;
+}
+
+.colum3 {
+    max-width: 400px;
+}
+
+.colum3 h1 {
+    font-size: 22px;
+}
+
+.row2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer {
+    width: 100%;
+    background: #101010;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright {
+    color: #c7c7c7;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.row a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+@media screen and (max-width: 1100px) {
+    .container-body {
+        flex-wrap: wrap;
+    }
+
+    .colum1 {
+        max-width: 100%;
+    }
+
+    .colum2,
+    .colum3 {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+
+    .colum2,
+    .colum3 {
+        margin-top: 40px;
+    }
+}
+
+/*Fin footer*/
+
+
+
+/*Inicio  menu*/
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;    
+    align-items: center;
+    padding: 20px;
+        
+    background-color:#202020;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 60px;
+}
+.header h2{
+    
+    font-weight: bold;
+}
+.nombre-empresa{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color:white;
+    margin-right: 40px;
+
+}
+header a:hover{
+    color: #e627ac;
+}
+
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    color: rgb(231, 43, 231);
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+/*Fin menu*/
+
+/*Inicio titulo e imagene*/
+.portada{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    
+    
+}
+.columna1{
+    max-width: 600px;
+    
+
+}
+.columna2{
+    max-width: 600px;
+}
+.columna1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.0rem;
+    margin-right: 40px;
+    margin-top: 40px;
+    
+    
+}
+.columna2 img{
+    width: 631;
+    height: 307;
+}
+/*Fin titulo e imagen*/
+
+/*Menu a la izquierda  */
+.extra{
+    width: 350px;
+    height: 800px;       
+    float: left; /* Para que no ocupe espacio*/
+    position: sticky;
+    top: 120px;
+    background-color: #202020;
+    margin-left: 20px;
+    border-radius: 19px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.extra h3{
+    margin-left: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    text-decoration: underline;
+    
+    
+}
+
+.extra h2{
+    margin-left: 23px;
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #c7c7c7;
+    padding-left: 65px;
+}
+
+.fila1 a{
+    display: list-item;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-left: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.fila2 a{
+    display: list-item;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.fila3 a{
+    display: list-item;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.extra a:hover{
+
+    color: rgb(231, 43, 231);
+}
+/*Fin menu a la ezquierda*/
+
+
+/* COMO COMPRAR*/
+.comprar{
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    
+    
+}
+.com1{
+    max-width: 600px;
+    
+    
+
+}
+.com2{
+   
+    
+    max-width: 700px;
+    
+    margin-left: 50px;
+    text-align: center;
+}
+.com2 p{
+    font-family:'open Sans';
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 40px;
+    line-height: 32px; /*Es para darle un interlineado*/
+    
+    
+    
+}
+.com2 h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'concert one';
+    
+    
+}
+.com2 h4{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(129, 16, 129);
+}
+.com1 img{
+    width: 300;
+    height: 300;
+}
+/*Filtro de Busqueda*/
+
+button{
+    width: 40px;
+    height: 40px;
+
+    border-radius: 15px;
+    border: none;
+    background-color: #c374ff;
+}
+input {
+    width: 240px;
+    height: 40px;
+
+    border: none;
+    outline: none;
+
+    text-align: start;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.search_cont-center{
+    width: 300px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search_cont{
+    width: 300px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: solid 2px #f8f8f8;
+    border-radius: 15px;
+}
+
+button img{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>libreria</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tienda.css">
+    <script src="/filtro_busqueda.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <a href="libreriaLaura.html" class="logo">
+            <img src="image/iconos/libros-de-texto.png" alt="">
+            <h2 class="nombre-empresa">SUDÁMERICA IMPORT S.A.C</h2>
+        </a>
+        <nav>
+            <a href="libreriaLaura.html" class="nav-link">TIENDA</a>
+            <a href="ofertas.html" class="nav-link">OFERTAS</a>
+            <a href="comprar.html" class="nav-link">CÓMO COMPRAR</a>
+            <a href="miCuenta.html" class="nav-link">MI CUENTA</a>
+            <a href="visitanos.html" class="nav-link">VISITANOS</a>
+
+        </nav>
+
+    </header>
+    <br>
+    <div class="portada">   
+        <div class="columna1">
+            <h1>BIENVENIDOS A SUDÁMERICA IMPORT S.A.C</h1>
+        </div>
+        <div class="columna2">
+            <img src="image/imagenSAC.jpg"  width="400px" height="200px">
+        </div>
+    </div>
+    <br>
+    <aside class="extra">
+        <div class="search_cont-center">
+
+            <div class="search_cont">
+                <input id="input" type="text" placeholder="Buscar" onkeyup="filterName()">
+                <button><img src="image/iconos/lupa-de-busqueda.png"></button>
+            </div>
+            
+        </div>
+        <audio src="audio/audio1.mp3" controls autoplay></audio>
+        <h2>CATEGORÍAS</h2>
+        <div class="fila1">
+            <h3>Útiles</h3>
+
+            <a href="#">Stickers</a>
+            <a href="#">Bloks</a>
+            <a href="#">Papeleria</a>
+            <a href="#">Escritura</a>
+            <a href="#">Plumones</a>
+            <a href="#">Colores</a>
+            <a href="#">Plastilina</a>
+
+
+        </div>
+
+        <div class="fila2">
+            <h3>Entrenimiento y juguetes</h3>
+            <a href="#">Juguetes musicales</a>
+            <a href="#">Juegos escolares</a>
+            <a href="#">Juegos de Mesa</a>
+            <a href="#">Rompecabezas</a>
+            <a href="#">Juegos de ingenio</a>
+            <a href="#">Juegos de manualidades</a>
+            <a href="#">Juguetes varios</a>
+
+
+        </div>
+
+        <div class="fila3">
+            <h3>Proveedores</h3>
+            <a href="https://tienda.faber-castell.com.pe/">Faber castell</a>
+            <a href=https://www.artesco.com.pe>Artesco</a>
+
+        </div>
+    </aside>
+
+
+
+    <article id="cartasjs"  class="cartas">
+
+       
+
+        <div id="cardjs" class="card">
+
+            <div class="face front">
+                <img src="image/colores/color2.jpg" alt="">
+                <h3>CRAYOLA MIS PRIMEROS LAPICES DE COLOR X8</h3>
+            </div>
+            <div class="face back">
+                <h3>CRAYOLA MIS PRIMEROS LAPICES DE COLOR X8</h3>
+                <p>PRECIO: $22.90</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/colores/color3.jpg" alt="">
+                <h3>CRAYOLA COLORES LARGOS X 50 UNIDADES</h3>
+            </div>
+            <div class="face back">
+                <h3>CRAYOLA COLORES LARGOS X 50 UNIDADES</h3>
+                <p>PRECIO: $44.90</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/colores/color4.jpg" alt="">
+                <h3>ARTESCO - COLORES X 12</h3>
+            </div>
+            <div class="face back">
+                <h3>ARTESCO - COLORES X 12</h3>
+                <p>PRECIO: $7.80</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/colores/color5.jpg" alt="">
+                <h3>FABER CASTELL - COLORES X 15 UNIDADES</h3>
+            </div>
+            <div class="face back">
+                <h3>FABER CASTELL - COLORES X 15 UNIDADES</h3>
+                <p>PRECIO: $8.50</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/colores/color6.jpg" alt="">
+                <h3>ARTESCO - COLORES TRIANGULARES X 60 UNIDADES</h3>
+            </div>
+            <div class="face back">
+                <h3>ARTESCO - COLORES TRIANGULARES X 60 UNIDADES</h3>
+                <p>PRECIO: $55.90</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reglas - Compas - Tajadores -->
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/reglas/regla1.jpg" alt="">
+                <h3>KUM - TAJADOR PROFESIONAL 4 EN 1</h3>
+            </div>
+            <div class="face back">
+                <h3>KUM - TAJADOR PROFESIONAL 4 EN 1</h3>
+                <p>4 varaciones</p>
+                <p>PRECIO: $14.90</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/reglas/regla2.jpg" alt="">
+                <h3>ARTESCO REGLA CRISTAL 20 CM.</h3>
+            </div>
+            <div class="face back">
+                <h3>ARTESCO REGLA CRISTAL 20 CM.</h3>
+                <p>PRECIO: $0.80</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/reglas/regla3.jpg" alt="">
+                <h3>ARTESCO REGLA CRISTAL 30 CM.</h3>
+            </div>
+            <div class="face back">
+                <h3>ARTESCO REGLA CRISTAL 30 CM.</h3>
+                <p>PRECIO: $1.20</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/reglas/regla4.jpg" alt="">
+                <h3>KUM COMPAS DE ALTA GAMA TURQUEDA PASTEL</h3>
+            </div>
+            <div class="face back">
+                <h3>KUM COMPAS DE ALTA GAMA TURQUEDA PASTEL</h3>
+                <p>PRECOP: S/32.90</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/reglas/regla5.jpg" alt="">
+                <h3>ARTESCO ESTUCHE GEOMETRICO 30CM</h3>
+            </div>
+            <div class="face back">
+                <h3>ARTESCO ESTUCHE GEOMETRICO 30CM</h3>
+                <p>PRECIO: $4.80</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Utiles de oficina-->
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/oficina/oficina.jpg" alt="">
+                <h3>BANTEX ARCHIVADORES A4 DE COLORES</h3>
+            </div>
+            <div class="face back">
+                <h3>BANTEX ARCHIVADORES A4 DE COLORES</h3>
+                <p>PRECIO: $21.90</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/oficina/oficina2.jpg" alt="">
+                <h3>PAPERSTOP - NOTAS ADHESIVAS</h3>
+            </div>
+            <div class="face back">
+                <h3>PAPERSTOP - NOTAS ADHESIVAS</h3>
+                <p>PRECIO: $9.90</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/oficina/oficina3.jpg" alt="">
+                <h3>GRAPHOS SOBRE MANILA X 10 UNIDADES</h3>
+            </div>
+            <div class="face back">
+                <h3>GRAPHOS SOBRE MANILA X 10 UNIDADES</h3>
+                <p>PRECIO: $5.00</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/oficina/oficina4.jpeg" alt="">
+                <h3>CBIT PAPEL FOTOGRAFICO ADHESIVO MATE</h3>
+            </div>
+            <div class="face back">
+                <h3>CBIT PAPEL FOTOGRAFICO ADHESIVO MATE</h3>
+                <p>PRECIO: $19.90</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/oficina/oficina5.jpeg" alt="">
+                <h3>ARTESCO ESTUCHE GEOMETRICO 30CM</h3>
+            </div>
+            <div class="face back">
+                <h3>ARTESCO ESTUCHE GEOMETRICO 30CM</h3>
+                <p>PRECIO: $4.80</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Libretas-->
+        <div class="card">
+            <div class="face front">
+                <img src="image/libretas/libretas.jpg" alt="">
+                <h3>LEGAMI BULLET JOURNAL</h3>
+            </div>
+            <div class="face back">
+                <h3>LEGAMI BULLET JOURNAL</h3>
+                <p>PRECIO: $69.00</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/libretas/libretas2.jpg" alt="">
+                <h3>PAPELI CUADERNO DE PUNTOS SELVAIA</h3>
+            </div>
+            <div class="face back">
+                <h3>PAPELI CUADERNO DE PUNTOS SELVAIA</h3>
+                <p>PRECIO: $59.00</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/libretas/libretas3.jpg" alt="">
+                <h3>WATERVIOLET-lIBRETA PUNTEADA</h3>
+            </div>
+            <div class="face back">
+                <h3>WATERVIOLET-lIBRETA PUNTEADA</h3>
+                <p>PRECIO: $39.00</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/libretas/libretas4.jpg" alt="">
+                <h3>PAPELI CUADERNO DE PUNTOS ROXI</h3>
+            </div>
+            <div class="face back">
+                <h3>PAPELI CUADERNO DE PUNTOS ROXI</h3>
+                <p>PRECIO: $59.00</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="image/libretas/libretas5.jpg" alt="">
+                <h3>PAPERBLANKS LIBRETA DUOMO SLIM 2020-HOJAS RAYADAS</h3>
+            </div>
+            <div class="face back">
+                <h3>PAPERBLANKS LIBRETA DUOMO SLIM 2020-HOJAS RAYADAS</h3>
+                <p>PRECIO: $64.00</p>
+                <div class="link">
+                    <a href="#">Detalles</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </article>
+
+
+
+
+
+    <br>
+
+    <hr>
+
+    <footer>
+        <div class="container-footer-all">
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Mas informacion de la compañia</h1>
+
+                    <p>Esta empresa se dedica a la venta de libros, utiles, arte y diseño, entretenimiento,
+                        juguetes,
+                        regales de papeleria y entre otros. </p>
+
+                </div>
+
+                <div class="colum2">
+                    <h1>Redes Sociales</h1>
+
+                    <div class="row">
+                        <img src="image/iconos/facebook.png">
+                        <a href="#"><label>Siguenos en Facebook</label></a>
+                    </div>
+
+                    <div class="row">
+                        <img src="image/iconos/twitter.png">
+                        <a href="#"><label>Siguenos en Twitter</label></a>
+                    </div>
+
+                    <div class="row">
+                        <img src="image/iconos/instagram.png">
+                        <a href="#"><label>Siguenos en Instagram</label></a>
+                    </div>
+
+                    <div class="row">
+                        <img src="image/iconos/google-plus.png">
+                        <a href="#"><label>Siguenos en Google</label></a>
+                    </div>
+
+                    <div class="row">
+                        <img src="image/iconos/pinterest.png">
+                        <a href="#"><label>Siguenes en Pinteres</label></a>
+                    </div>
+
+                </div>
+
+                <div class="colum3">
+                    <h1>Informacion Contactos</h1>
+
+                    <div class="row2">
+                        <img src="image/iconos/home.png">
+                        <label>Libreria Laura, Peru, lima, #xx </label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="image/iconos/telefono.png">
+                        <label>+51 ********* </label>
+                    </div>
+                    <div class="row2">
+                        <img src="image/iconos/gmail.png">
+                        <label>***************@gmail.com</label>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container-footer">
+            <div class="footer">
+                <div class="copyright">
+                    © 2022 Todos los Derechos Reservados
+                </div>
+                <div class="information">
+                    <a href="#">Informacion compañia</a> | <a href="#">Privacion y Politica</a> | <a href="#">Terminos y
+                        Condiciones</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </footer>
+</body>
+
+</html>
